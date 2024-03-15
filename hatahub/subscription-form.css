@@ -1312,3 +1312,8 @@
 
   /*adjustments*/
   #mlb2-13098810.ml-form-embedContainer .ml-form-embedWrapper.embedForm {max-width: unset; padding: 120px 40px 40px; border-radius: 0; border: .4rem solid #000;}
+  #mlb2-13098810 p {color: unset;
+    font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+    line-height: unset;}

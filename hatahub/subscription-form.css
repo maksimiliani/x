@@ -1309,3 +1309,6 @@
       width: 100% !important;
     }
   }
+
+  /*adjustments*/
+  #mlb2-13098810.ml-form-embedContainer .ml-form-embedWrapper.embedForm {max-width: unset; padding: 120px 40px 40px; border-radius: 0; border: .4rem solid #000;}

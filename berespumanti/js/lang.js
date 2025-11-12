@@ -51,7 +51,7 @@
     });
     document.querySelectorAll('.navbar-item.lang').forEach(el => {
       if (el.innerHTML == lang) el.classList.add('current');
-      el.addEventListener("mouseup", function(event) {
+      el.addEventListener("mousedown", function(event) {
         localStorage.setItem('langPreference', this.innerTex.toLowerCase);
       });
     });

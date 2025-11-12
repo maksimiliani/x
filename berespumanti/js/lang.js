@@ -49,6 +49,12 @@
       if (active) el.removeAttribute('aria-hidden');
       else el.setAttribute('aria-hidden', 'true');
     });
+    document.querySelectorAll('.navbar-item.lang').forEach(el => {
+      if (el.innerHTML == lang) el.classList.add('current');
+      el.addEventListener("mouseup", function(event) {
+        localStorage.setItem('langPreference', this.innerHTML);
+      });
+    });
   }
 
   if (document.readyState === 'loading') {

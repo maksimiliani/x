@@ -52,7 +52,7 @@
     document.querySelectorAll('.navbar-item.lang').forEach(el => {
       if (el.innerHTML == lang) el.classList.add('current');
       el.addEventListener("mousedown", function(event) {
-        localStorage.setItem('langPreference', this.innerTex.toLowerCase);
+        localStorage.setItem('langPreference', this.innerTex.toLowerCase());
       });
     });
   }
